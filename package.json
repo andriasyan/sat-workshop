@@ -4,11 +4,25 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server": "node backend/server.js"
+    "server": "node backend/server.js",
+    "compile": "webpack"
   },
   "author": "",
   "license": "ISC",
+
+  "//":"some comment",
+
   "dependencies": {
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "webpack": "^2.3.2"
   }
 }
